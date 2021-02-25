@@ -10,6 +10,47 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ *= require simple_calendar
  *= require_tree .
  *= require_self
  */
+
+
+
+.header {
+    background-color: #DDA0DD;
+    
+}
+
+.header__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.calendar-heading {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.calendar-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.arrow {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #DDA0DD;
+}

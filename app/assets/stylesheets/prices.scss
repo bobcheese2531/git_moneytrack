@@ -1,0 +1,40 @@
+// Place all the styles related to the prices controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.link {
+    text-decoration: none;
+    color: #DDA0DD;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link.link-add {
+    font-size: 30px;
+    display: inline-block;
+}
+
+.link.link-logout {
+    display: inline-block;
+}
+
+.form-box {
+    height: auto;
+    width: 250px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit-button {
+  margin-top: 5px;
+  display:inline-block;
+}
